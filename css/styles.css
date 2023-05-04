@@ -220,11 +220,11 @@ h3 {
 
 .grid_2 {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 85px;
   padding-top: 39px;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .grid_2 h3 {
