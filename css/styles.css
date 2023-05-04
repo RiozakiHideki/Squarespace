@@ -7,6 +7,7 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 a {
@@ -184,6 +185,11 @@ h3 {
   row-gap: 0px;
 }
 
+.grids_1_2 {
+  margin: 0;
+  width: 100vw;
+}
+
 .grid_1 {
   margin: 0;
   background-color: #f2f2f2;
@@ -221,7 +227,7 @@ h3 {
 .grid_2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 85px;
+  column-gap: 80px;
   padding-top: 39px;
   margin-left: 40px;
   margin-right: 40px;
