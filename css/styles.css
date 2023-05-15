@@ -1,11 +1,13 @@
 body {
   width: 100wh;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
+  overflow-x: hidden;
 }
 
 a {
@@ -13,13 +15,35 @@ a {
   color: white;
 }
 
+p {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 34px;
+}
+
 .header {
   position: absolute;
   background-color: black;
   height: 80px;
+  width: 100wh;
   left: 0%;
   right: 0%;
   top: 0px;
+  z-index: 1;
 }
 
 .logo {
@@ -82,11 +106,15 @@ a {
   position: absolute;
   width: 100%;
   height: 800px;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-image: url(/img/bg-top.png);
-  background-size: 100%;
+  margin: 0, 0, 0, 0;
+}
+
+.background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .content-top-left {
@@ -98,12 +126,11 @@ a {
   color: #efefef;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
 }
 
 .sell-online {
   position: absolute;
-  margin-top: 93px;
+  margin-top: 173px;
   margin-left: 40px;
   font-size: 18px;
   line-height: 22px;
@@ -111,7 +138,7 @@ a {
 
 .member-areas {
   position: absolute;
-  margin-top: 93px;
+  margin-top: 173px;
   margin-left: 202px;
   font-size: 18px;
   line-height: 22px;
@@ -121,7 +148,7 @@ a {
   position: absolute;
   height: 216px;
   width: 499px;
-  margin-top: 127px;
+  margin-top: 207px;
   margin-left: 40px;
   font-size: 72px;
   line-height: 72px;
@@ -132,7 +159,7 @@ a {
   position: absolute;
   height: 80px;
   width: 500px;
-  margin-top: 365px;
+  margin-top: 445px;
   margin-left: 40px;
   font-size: 22px;
   line-height: 26px;
@@ -141,7 +168,7 @@ a {
 
 .get-started-2 {
   position: absolute;
-  margin-top: 491px;
+  margin-top: 571px;
   margin-left: 40px;
   display: inline-block;
   width: 153px;
@@ -153,8 +180,6 @@ a {
   color: black;
   font-size: 14px;
 }
-<<<<<<< Updated upstream
-=======
 
 .empty {
   display: grid;
@@ -429,4 +454,3 @@ a {
   text-decoration-line: underline;
   text-transform: uppercase;
 }
->>>>>>> Stashed changes
