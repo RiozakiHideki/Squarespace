@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: 100wh;
   height: 100%;
   font-family: "Roboto";
   font-style: normal;
@@ -153,3 +153,280 @@ a {
   color: black;
   font-size: 14px;
 }
+<<<<<<< Updated upstream
+=======
+
+.empty {
+  display: grid;
+  width: 100vh;
+  height: 800px;
+}
+
+.all-in-one-tools {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  width: 100vw;
+  height: 749px;
+  row-gap: 0px;
+}
+
+.grid_1 {
+  margin: 0;
+  padding-bottom: 77px;
+  background-color: #f2f2f2;
+}
+
+.grid_1 .item_1 {
+  padding-top: 50.77px;
+  padding-left: 47.08px;
+}
+
+.grid_1 .item_2 {
+  text-align: center;
+  margin-top: 4.39px;
+}
+
+.grid_1 .item_3 {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 22px;
+}
+
+.grid_1 .item_4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 77px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.grid_2 {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+  padding-top: 39px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.grid_2 h4 {
+  margin-top: 39px;
+  margin-bottom: 0px;
+}
+
+.grid_2 p {
+  margin-top: 6px;
+  font-size: 18px;
+}
+
+.ad {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-direction: column;
+  width: 100wh;
+  height: 480px;
+  background-image: url(/img/piano.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.ad h2 {
+  margin: 0;
+  background: none;
+  padding-top: 125px;
+}
+
+.ad p {
+  height: 53px;
+  margin-top: 22px;
+  background: none;
+}
+
+.ad a {
+  font-size: 18px;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+.info-block {
+  display: flex;
+  margin-top: 0px;
+  background-color: #60777c;
+  flex-direction: column;
+  color: #ffff;
+}
+
+.info_1 {
+  text-align: center;
+  height: 290px;
+}
+
+.info_1 h2 {
+  margin-top: 0;
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+
+.info_1 p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.info_2,
+.info_3,
+.info_4,
+.info_5,
+.info_6 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 533px;
+}
+
+.info_2_left h3,
+.info_4_left h3 {
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 244px;
+  height: auto;
+}
+
+.info_2_left p,
+.info_4_left p {
+  margin: 0;
+  padding-top: 22px;
+  padding-left: 40px;
+}
+
+.info_2 img,
+.info_4 img {
+  padding-top: 120px;
+  margin-right: 40px;
+}
+
+.info_3 img,
+.info_5 img {
+  padding-top: 120px;
+  margin-left: 40px;
+}
+
+.info_3_right h3,
+.info_5_right h3 {
+  margin: 0;
+  padding-right: 184px;
+  padding-top: 244px;
+}
+
+.info_3_right p,
+.info_5_right p {
+  margin: 0;
+  padding-top: 22px;
+  padding-right: 85px;
+}
+
+.info_6 {
+  height: 609px;
+}
+.info_6_left h4 {
+  margin: 0;
+  padding: 0;
+  padding-left: 40px;
+  padding-top: 79px;
+  height: auto;
+}
+
+.info_6_left p {
+  margin: 0;
+  padding-top: 190px;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+.info_6_left a {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: 18px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.27);
+}
+
+.info_6_slider {
+  width: 660px;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.info_6_slider-line {
+  display: flex;
+  position: relative;
+  height: 413px;
+  width: 1320px;
+  padding-top: 80px;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.info_6_slider p {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 0;
+  margin-left: 451px;
+  padding-top: 15px;
+  padding-right: 22px;
+  /* text-align: end; */
+}
+
+.info_6_slider button {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.info_6_button_back {
+  margin-left: 22px;
+}
+
+.info_6_button_next {
+  margin-left: 13px;
+}
+
+.slider-js {
+  display: flex;
+  flex-direction: column;
+  height: 781.91px;
+  width: 100wh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-js h2 {
+  margin: 0;
+  padding-top: 40px;
+  margin-bottom: 22px;
+}
+
+.slider-js p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.slider-js a {
+  color: black;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+>>>>>>> Stashed changes
