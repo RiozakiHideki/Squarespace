@@ -4,41 +4,47 @@
   }
 }
 
+html {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  margin-top: 6px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-weight: 400;
 }
 
 p {
   font-size: 22px;
   line-height: 26px;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 56px;
   line-height: 56px;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 40px;
   line-height: 40px;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 28px;
   line-height: 34px;
+  font-weight: 400;
 }
 
 .header {
@@ -458,4 +464,54 @@ h4 {
   color: black;
   text-decoration-line: underline;
   text-transform: uppercase;
+}
+
+.get-started-3 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 530px;
+  width: 100%;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+
+.get-started-3-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.get-started-3-left h2 {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+.get-started-3-left a {
+  padding-left: 40px;
+  padding-top: 29px;
+  text-decoration-line: underline;
+}
+
+.get-started-3-middle,
+.get-started-3-right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 82px;
+  margin-left: 300px;
+}
+
+.get-started-3-middle p,
+.get-started-3-right p {
+  margin: 0;
+  margin-bottom: 53px;
+}
+
+.get-started-3-right {
+  margin-left: 5px;
+}
+
+.get-started-3-right p {
+  margin-bottom: 27px;
 }
