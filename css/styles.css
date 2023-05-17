@@ -1,8 +1,4 @@
-@media screen {
-  html {
-    width: fit-content;
-  }
-}
+
 
 html {
   font-family: "Roboto";
@@ -10,7 +6,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100wh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
