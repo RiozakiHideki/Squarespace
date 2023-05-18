@@ -1,8 +1,8 @@
-/* @media screen {
-    html{
-      width: fit-content;
-    }
-} */
+@media screen and (max-width: 1500px) {
+  html {
+    width: fit-content;
+  }
+}
 
 html {
   font-family: "Roboto";
