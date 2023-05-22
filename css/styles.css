@@ -1,9 +1,3 @@
-@media screen and (max-width: 1500px) {
-  html {
-    width: fit-content;
-  }
-}
-
 html {
   font-family: "Roboto";
   font-style: normal;
@@ -55,6 +49,16 @@ h4 {
   line-height: 34px;
   font-weight: 400;
   margin: 0;
+}
+
+hr {
+  background: rgba(202, 202, 202, 0.5);
+  border: none;
+  height: 1px;
+  margin: 0;
+  margin-top: 0px;
+  border-radius: 0px;
+  width: 100%;
 }
 
 .header {
@@ -719,4 +723,164 @@ h4 {
 .button-plus {
   font-size: 48px;
   line-height: 26px;
+}
+
+.customer-support {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 920px;
+  background-color: black;
+}
+
+.customer-support-img {
+  height: 100%;
+}
+
+.customer-support-img img {
+  margin-left: 40px;
+  margin-top: 80px;
+  height: 760px;
+  width: 543px;
+}
+
+.customer-support-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: white;
+  margin: 0;
+  margin-left: 157px;
+}
+
+.customer-support-right h2 {
+  margin-top: 278px;
+}
+
+.customer-support-right p {
+  margin-top: 22px;
+}
+
+.customer-support-right a {
+  margin-top: 19px;
+  font-size: 18px;
+  align-self: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.penultimate {
+  display: flex;
+  flex-direction: row;
+  height: 235px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.penultimate h3 {
+  margin-top: 75px;
+  margin-left: 40px;
+}
+
+.free-trial {
+  display: inline-block;
+  width: 153px;
+  height: 56px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  line-height: 56px;
+  color: black;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  height: 625px;
+  background-color: black;
+}
+
+.last-c-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.last-logo {
+  margin-top: 115px;
+}
+
+.currency-button,
+.language-button {
+  display: inline-block;
+  cursor: pointer;
+  width: 150px;
+  height: 47px;
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.currency-button p,
+.language-button p {
+  margin-left: 15px;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+.arrow-down-1 {
+  margin-left: 69px;
+}
+
+/* .language-button {
+  display: inline-block;
+  cursor: pointer;
+  width: 150px;
+  height: 47px;
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  margin-top: 12px;
+} */
+
+.arrow-down-2 {
+  margin-left: 49px;
+}
+
+@media screen and (max-width: 1441px) {
+  html {
+    width: fit-content;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .get-started-3 {
+    justify-content: center;
+  }
+  .customer-support {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 920px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  .customer-support-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    color: white;
+    margin: 0;
+    margin-left: 157px;
+  }
 }
