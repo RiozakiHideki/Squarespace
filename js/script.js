@@ -51,3 +51,11 @@ carouselInner.addEventListener("mousemove", function (event) {
   var walk = (x - startX) * 2;
   carouselInner.scrollLeft = scrollLeft - walk;
 });
+
+var carouselImages = document.querySelectorAll(".carousel-inner img");
+
+carouselImages.forEach(function (image) {
+  image.addEventListener("mousedown", function (event) {
+    event.preventDefault();
+  });
+});
