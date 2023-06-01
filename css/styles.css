@@ -234,6 +234,7 @@ hr {
   margin-top: 0px;
   background-color: #60777c;
   flex-direction: column;
+  align-items: center;
   color: #ffff;
 }
 
@@ -259,6 +260,7 @@ hr {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  width: 1440px;
   height: 533px;
 }
 
@@ -364,29 +366,67 @@ hr {
   margin-left: 13px;
 }
 
-.slider-js {
+.starting-point {
   display: flex;
   flex-direction: column;
   height: 781.91px;
-  width: 100wh;
+  width: 100%;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.slider-js h2 {
+.starting-point h2 {
   padding-top: 40px;
   margin-bottom: 22px;
 }
 
-.slider-js p {
+.starting-point p {
   margin-bottom: 20px;
 }
 
-.slider-js a {
+.starting-point a {
   color: black;
   text-decoration-line: underline;
   text-transform: uppercase;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  margin-top: 65px;
+  gap: 40px;
+  justify-content: flex-start;
+  overflow: scroll;
+}
+
+.carousel-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-inner p {
+  margin-top: 13px;
+  display: flex;
+  align-self: flex-start;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+
+.carousel-1 {
+  margin-left: calc((100% - 25%) / 2);
+}
+
+.carousel-inner img {
+  width: 543px;
+  height: 348px;
 }
 
 .get-started-3 {
@@ -770,13 +810,19 @@ hr {
   text-transform: uppercase;
 }
 
-.penultimate {
+.penultimate-block {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   height: 235px;
   width: 100%;
   background-color: black;
   color: white;
+}
+
+.penultimate {
+  display: flex;
+  width: 1440px;
 }
 
 .penultimate h3 {

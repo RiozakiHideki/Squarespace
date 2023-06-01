@@ -23,3 +23,31 @@ document
     slider.style.left = offset + "px";
     slider_num.textContent = "01 / 02";
   });
+
+var carouselInner = document.querySelector(".carousel-inner");
+var isMouseDown = false;
+var startX;
+var scrollLeft;
+
+carouselInner.addEventListener("mousedown", function (event) {
+  isMouseDown = true;
+  startX = event.pageX - carouselInner.offsetLeft;
+  scrollLeft = carouselInner.scrollLeft;
+  carouselInner.style.cursor = "grabbing";
+});
+
+carouselInner.addEventListener("mouseleave", function () {
+  isMouseDown = false;
+});
+
+carouselInner.addEventListener("mouseup", function () {
+  isMouseDown = false;
+});
+
+carouselInner.addEventListener("mousemove", function (event) {
+  if (!isMouseDown) return;
+  event.preventDefault();
+  var x = event.pageX - carouselInner.offsetLeft;
+  var walk = (x - startX) * 2;
+  carouselInner.scrollLeft = scrollLeft - walk;
+});
